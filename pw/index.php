@@ -16,7 +16,7 @@ $buku = query("SELECT * FROM buku");
 <div class="container ">
   <div class="card mt-5 bg-white text-light">
     <div class="card-body text-light">
-      <h1 class="display-1 text-center text-dark ">Daftar Mahasiswa</h1>
+      <h1 class="display-1 text-center text-dark ">Daftar Buku</h1>
 
     <button class="add mb-3 btn btn-success rounded-pill">
     <a href="tambah.php" style="text-decoration:none;color:white;">Tambah Data Buku</a>
