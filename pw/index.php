@@ -22,6 +22,12 @@ $buku = query("SELECT * FROM buku");
     <button class="add mb-3 btn btn-success rounded-pill">
     <a href="tambah.php" style="text-decoration:none;color:white;">Tambah Data Buku</a>
     </button>
+
+    <form class="d-flex" action="" method="POST">
+          <input class="form-control me-2" type="text" name="keyword" autocomplete="off" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit" name="cari">Search</button>
+    </form>
+
     <br><br>
     <table class="table table-bordered table-striped table-hover text-center bg-transparent text-dark">
         <tr> 
